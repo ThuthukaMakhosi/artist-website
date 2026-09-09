@@ -73,19 +73,26 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 
 @media screen and (max-width : 767px){
 .carousel-caption {
-    position:static!important;
+    position:absolute !important;
 	padding:15px 15px 50px 15px;
-	background:var(--bs-dark)!important;
+	background:rgba(22, 22, 22, 0.75)!important;
 	text-align:left!important;
+	
 }
+
+.hero-tagline {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 8px 12px;
+}
+
 .carousel-caption h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 .carousel-caption br {
     display:none;
 }
 .carousel-caption p {
-    width:100%!important;
+    width:auto!important;
 }
 
 .trend_1_lefto{
